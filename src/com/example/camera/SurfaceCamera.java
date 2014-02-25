@@ -53,7 +53,8 @@ public class SurfaceCamera extends Activity implements SurfaceHolder.Callback {
 				LayoutParams.FILL_PARENT, LayoutParams.FILL_PARENT);
 		this.addContentView(viewControl, layoutParamsControl);
 
-		Button btn1 = null;// (Button) findViewById(R.id.button1);
+
+		Button btn1 = (Button) findViewById(R.id.btn1);
 		btn1.setOnClickListener(new OnClickListener() {
 
 			@Override

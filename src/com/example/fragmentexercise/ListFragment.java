@@ -83,6 +83,7 @@ public class ListFragment extends Fragment implements
 				if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT) {
 					getFragmentManager().beginTransaction()
 							.replace(R.id.portraitLayout, detail, "details")
+							.addToBackStack(null)
 							.commit();
 				}
 

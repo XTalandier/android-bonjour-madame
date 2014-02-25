@@ -21,14 +21,6 @@ public class DetailsFragment extends Fragment{
 		// TODO Auto-generated method stub
 		View view = inflater.inflate(R.layout.detail_layout, container, false);
 		
-		Button btnClose = (Button) view.findViewById(R.id.btnClose);
-		btnClose.setOnClickListener(new OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				closeMe();
-			}
-		});
-				
 		return view;
 	}
 	

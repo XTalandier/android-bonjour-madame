@@ -27,7 +27,7 @@ public final class R {
     public static final class id {
         public static final int action_settings=0x7f080012;
         public static final int action_snap=0x7f080011;
-        public static final int btnClose=0x7f080003;
+        public static final int btn1=0x7f080003;
         public static final int camerapreview=0x7f080002;
         public static final int image=0x7f080008;
         public static final int imageView1=0x7f080004;
